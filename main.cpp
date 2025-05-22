@@ -1,12 +1,14 @@
 #include <iostream>
 #include <string>
-#include <vector>
+#include <format>
 #include "card.h"
 
 int main(){
+    Card rand = Card("*",8);
+    Card band = Card("*",9);
+    
+    rand.print();
+    band.print();
 
-    std::vector <Card>list;
-    
-    
     return 0;
 }

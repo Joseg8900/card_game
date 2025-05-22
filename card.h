@@ -6,18 +6,18 @@
 class Card{
 
     private:
-        std::string suite;
+        std::string suit;
         std::string face;
         int val;
 
     public:
     //Constructors
         Card();
-        Card(std::string Suite, int Val);
-        Card(std::string Suite, std::string Face, int Val);
+        Card(std::string Suit, int Val);
+        Card(std::string Suit, std::string Face, int Val);
 
     //Getters
-        std::string getSuite();
+        std::string getSuit();
         std::string getFace();
         int getVal();
 
